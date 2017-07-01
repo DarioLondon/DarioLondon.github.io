@@ -1,0 +1,24 @@
+{
+  "name": "dariolondon.github.io",
+  "version": "0.0.1",
+  "description": "My portfolio ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarioLondon/DarioLondon.github.io.git"
+  },
+  "author": "Dario Guida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarioLondon/DarioLondon.github.io/issues"
+  },
+  "homepage": "https://github.com/DarioLondon/DarioLondon.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.7",
+    "typescript": "^2.4.1"
+  }
+}
