@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title></title><base href=""><!-- This stores the URL the user was attempting to go to in sessionStorage,
+    and then redirects all 404 responses to the app’s index.html page --><!-- See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/ --><script>sessionStorage.redirect = location.href;</script><meta http-equiv="refresh" content="0;URL='https://DarioLondon.github.io/DarioLondon.github.io'"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><script>(function () {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();</script><link href="styles.ec5f0ae0f82482f54e60.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.fe1bb7c32b535a9e665e.bundle.js"></script><script type="text/javascript" src="polyfills.14173651b8ae6311a4b5.bundle.js"></script><script type="text/javascript" src="vendor.b94f51d82b7baf11fe39.bundle.js"></script><script type="text/javascript" src="main.1e2eb2ef68bfb2141d21.bundle.js"></script></body></html>
